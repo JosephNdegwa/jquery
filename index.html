@@ -58,6 +58,27 @@ CLICK EVENT (this)
         });
     </script>
 -->
+ 
+
+HIDE $ SHOW<br>
+
+<button class="button" id="hide">Hide</button>
+<button class="button" id="show">Show</button>
+
+<div class="bikes">
+    <img src="bike.jpeg">
+</div>
+
+<script>
+    $(document).ready(function() {
+        $("#hide").click(function() {
+            $("img").hide();
+        });
+        $("#show").click(function() {
+            $("img").show();
+        });
+    });
+</script>
 
 
 
