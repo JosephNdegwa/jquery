@@ -14,8 +14,10 @@
             <li>Pit bull</li>
         </ul>
 
-
-        <script>
+<!--
+    VALUE FUNCTION
+    
+    <script>
             $(document).ready(function() {
                 $("button").click(function() {
                     alert("Value: "+$("#sometext").val());
@@ -24,6 +26,41 @@
         </script>
         <input type="text" id="sometext" value="">
         <button>Submit</button>
+-->
+
+<!--
+CLICK EVENT (this)
+
+<div class="bikes">
+    <img src="bike.jpeg">
+    <img src="bike1.jpeg">
+
+</div>
+<script>
+    $(document).ready(function() {
+        $("img").click(function() {
+            $(this).hide();
+        });
+    });
+</script>
+-->
+
+<!--
+    KEYPRESS METHOD<br>
+
+    <p>Start typing...</p>
+    <input id="press" type="text" size="10">
+    <script>
+        $(document).ready(function(){
+            $("input").on("keypress", function() {
+                $("p:last").hide();
+            });
+        });
+    </script>
+-->
+
+
+
 
     </body>
 </html>
